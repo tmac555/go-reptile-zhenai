@@ -19,7 +19,7 @@ func main() {
 	}
 
 	e.Run(enginer.Request{
-		Url:"http://www.hongniang.com/",
+		Url:"",//address url
 		Parsefunc:parse.Parsecitylist,
 	  },
 	)
